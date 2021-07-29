@@ -43,17 +43,17 @@
 					<div class="collapse navbar-collapse" id="navbarNav">
 						<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 							<li class="nav-item">
-								<a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+								<a class="nav-link text-white active" aria-current="page" href="#home">Home</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link text-white" href="#">Shop</a>
+								<a class="nav-link text-white" href="#shop">Shop</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link text-white" href="#">News</a>
+								<a class="nav-link text-white" href="#news">News</a>
 							</li>
 
 							<li class="nav-item">
-								<a class="nav-link text-white" href="#">Contact</a>
+								<a class="nav-link text-white" href="#contact">Contact</a>
 							</li>
 							<span
 								><button type="button" class="main-btn px-5 mx-5">
@@ -102,7 +102,42 @@
 									single-cylinder engine offers great fuel economy, with smooth
 									and friendly torque delivery.
 								</p>
-								<button class="main-btn">Purchase Now</button>
+
+								<div class="modal-box ">
+   							 <!-- Button trigger modal -->
+							<button class="main-btn" type="button"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">Purchase Now</button>
+
+							<!-- Modal -->
+							<div class="modal fade" 
+							id="staticBackdrop" 
+							data-bs-backdrop="static" 
+							data-bs-keyboard="false" 
+							tabindex="-1" 
+							aria-labelledby="staticBackdropLabel" 
+							aria-hidden="true">
+
+  					<div class="modal-dialog">
+    					<div class="modal-content">
+     						 <div class="modal-header">
+      							  <h5 class="modal-title text-dark" id="staticBackdropLabel"> Book Your Order Now
+										</h5>
+        
+											<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      						</div>
+     							 <div class="modal-body">
+       						 <p>Honda CBR 300R will be available from 1st Auguest.... <br>
+       						 Do you want to order your spot ?</p>
+      						</div>
+      					<div class="modal-footer">
+     			   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yes</button>
+    	    <button type="button" class="btn btn-primary">Later</button>
+     					 </div>
+   	 				</div>
+  				</div>
+			</div>
+		</div>
+
+								
 							</div>
 						</div>
 						<div class="col-lg-6 col-md-12 mt-5">
@@ -171,16 +206,18 @@
 								<button class="white-btn">Read More</button>
 							</div>
 						</div>
-						<div class="card col-lg-4 col-12 mx-auto h-100" style="width: 18rem">
+						<div class="card col-lg-4 col-12 mx-auto h-100 " style="width: 18rem">
 							<img src="images/bike-3.png" class="card-img-top my-2" alt="..." />
 							<div class="card-body">
-								<h5 class="card-title">2021 Honda CBR500R</h5>
+								<h5 class="card-title">Motorcycles & Scooters</h5>
 								<p class="card-text">
 									These models are sold in Japan with smaller capacity 399 cc engines: CB400F (2013–2016), CB400X, and CBR400R.
 								</p>
 								<button class="white-btn">Read More</button>
 							</div>
 						</div>
+
+						
 					</div>
 			</section>
 
@@ -250,7 +287,7 @@
 			</section>
 
 			<!-----------------------------Frequently Asked Question----------------------------->
-			<section id="contact" class="faqs">
+			<section id="faqs" class="faqs">
 				<div class="container">
                     <div class="section-title text-center pt-5 my-5 mx-5">
 						<h1>Frequenty <span>Asked Questions</span></h1>
@@ -405,7 +442,7 @@
 
 			<!--------------------------------------Form ----------------------------------------->
 
-		<section class="form px-lg-5 bg-light">
+		<section id="contact" class="form px-lg-5 bg-light">
 			<div class="container px-lg-5">
 				<div class="section-title text-center pt-5 my-5 mx-5">
 						<h1 >Get In <span>Touch</span></h1>
@@ -447,6 +484,85 @@
 		
 		
 		</main>
+		<footer
+          class="text-center text-lg-start text-white bg-dark"
+         
+          >
+    <div class="container p-4 pb-0">
+    
+      <section class="">
+     
+        <div class="row">
+         
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              HOnda
+            </h6>
+            <p class="text-white">
+              The Honda Motor Company, Ltd. is a Japanese public multinational conglomerate manufacturer of automobiles and power equipment. Honda became the second-largest Japanese automobile manufacturer in 2001. Honda was the eighth largest automobile manufacturer in the world in 2015.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+            <p>
+              <a class="text-white">Splendor</a>
+            </p>
+            <p>
+              <a class="text-white">CB Shine</a>
+            </p>
+            <p>
+              <a class="text-white">Pulsar</a>
+            </p>
+            <p>
+              <a class="text-white"> Platina</a>
+            </p>
+          </div>
+          
+
+          <hr class="w-100 clearfix d-md-none" />
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Quick Links
+            </h6>
+            <p>
+              <a href="#home" class="text-white">Home</a>
+            </p>
+            <p>
+              <a href="#shop" class="text-white">Shop</a>
+            </p>
+            <p>
+              <a href="#news" class="text-white">News</a>
+            </p>
+            <p>
+              <a href="#contact" class="text-white">Contact</a>
+            </p>
+			
+          </div>
+
+          
+          <hr class="w-100 clearfix d-md-none" />
+
+         
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p><i class="fas fa-home mr-3 "></i> New York, NY 10012, US</p>
+            <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+			
+           
+          </div>
+          
+        </div>
+     
+      </section>
+
+    </div>
+  </footer>
 
 		
 		

@@ -93,7 +93,9 @@ h1 span {
 .shop-section .filter {
 	filter: grayscale(100%);
 }
-
+.services {
+	height: 100%;
+}
 /* icon  */
 .services i {
 	font-size: 2rem;
@@ -107,4 +109,13 @@ h1 span {
 	color: rgb(88, 88, 88);
 	padding: 1rem 0;
 	margin: 1rem 0;
+}
+footer a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+footer p,
+i {
+	color: #fff;
 }
