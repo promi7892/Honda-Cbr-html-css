@@ -15,7 +15,6 @@
 	margin: 10px;
 	font-size: 1rem;
 }
-
 .navbar span {
 	margin: auto;
 }
@@ -95,4 +94,17 @@ h1 span {
 	filter: grayscale(100%);
 }
 
-/* testimonial */
+/* icon  */
+.services i {
+	font-size: 2rem;
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: rgb(153, 88, 88);
+}
+.services h3 {
+	color: rgb(88, 88, 88);
+	padding: 1rem 0;
+	margin: 1rem 0;
+}
