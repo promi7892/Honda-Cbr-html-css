@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+	background: #264653;
+}
+.navbar ul li {
+	padding: 0.5rem;
+	margin: 10px;
+	font-size: 1rem;
+}
+.navbar ul li a {
+	color: #fff;
+}
+.navbar span {
+	margin: auto;
+}
+/* common custom CSS */
+.main-btn {
+	padding: 0.5rem 1rem;
+	text-align: center;
+	align-items: center;
+	font-weight: 500;
+	line-height: 24px;
+	background: #e76f51;
+	color: #ffff;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+		rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.main-btn:hover {
+	background: transparent;
+	color: #e76f51;
+	border: 0.5px solid #e76f51;
+}
+
+.white-btn {
+	padding: 0.5rem 1rem;
+	text-align: center;
+	align-items: center;
+	font-weight: 500;
+	line-height: 24px;
+	background: transparent;
+	color: #e76f51;
+	border-radius: 5px;
+	border: 1px solid #e76f51;
+	outline: none;
+}
+.white-btn:hover {
+	background: #e76f51;
+	color: #ffff;
+}
+p {
+	font-weight: 200;
+	color: #264653;
+	font-size: 14px;
+	line-height: 30px;
+}
+.section-title h1 {
+	font-weight: 600;
+}
+h1 span {
+	color: #e76f51;
+}
+
+/* Top banner */
+.top-banner {
+	width: 100%;
+	background: #264653;
+}
+
+.top-banner h5 {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 10px 0;
+	line-height: 24px;
+}
+.top-banner h1 {
+	color: #fff;
+	font-weight: 600;
+}
+
+/* Shop section */
+.shop-section {
+	width: 100%;
+}
+.shop-section p {
+	color: #e76f51;
+}
+/* .shop-section p::before {
+	content: '';
+	width: 80px;
+	height: 1px;
+	position: absolute;
+	background-color: #e76f51;
+	bottom: -15%;
+	left: 47%;
+} */
+
+.shop-section .filter {
+	filter: grayscale(100%);
+}
+
+/* testimonial */
