@@ -15,9 +15,7 @@
 	margin: 10px;
 	font-size: 1rem;
 }
-.navbar ul li a {
-	color: #fff;
-}
+
 .navbar span {
 	margin: auto;
 }
@@ -84,10 +82,6 @@ h1 span {
 	margin: 10px 0;
 	line-height: 24px;
 }
-.top-banner h1 {
-	color: #fff;
-	font-weight: 600;
-}
 
 /* Shop section */
 .shop-section {
@@ -96,15 +90,6 @@ h1 span {
 .shop-section p {
 	color: #e76f51;
 }
-/* .shop-section p::before {
-	content: '';
-	width: 80px;
-	height: 1px;
-	position: absolute;
-	background-color: #e76f51;
-	bottom: -15%;
-	left: 47%;
-} */
 
 .shop-section .filter {
 	filter: grayscale(100%);
